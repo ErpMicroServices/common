@@ -32,6 +32,7 @@ public class PersistentEntity implements Entity {
 
 	public PersistentEntity() {
 		super();
+		id = UUID.randomUUID();
 	}
 
 	public PersistentEntity(UUID id, Long version) {
