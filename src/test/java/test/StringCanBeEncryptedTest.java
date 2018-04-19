@@ -2,7 +2,7 @@ package test;
 
 import test.utils.GwtTemplate;
 
-import static erp_microservices.encryption.Encrypter.encrypt;
+import static org.erp_microservices.encryption.Encrypter.encrypt;
 import static org.apache.commons.lang3.StringUtils.isNotEmpty;
 import static org.junit.Assert.assertTrue;
 
